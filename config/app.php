@@ -182,8 +182,8 @@ return [
          * Laflux Service Providers...
          */
         
-ExtensionsValley\Menumanager\MenumanagerServiceProvider::class,
-ExtensionsValley\Dashboard\DashboardServiceProvider::class,
+        ExtensionsValley\Menumanager\MenumanagerServiceProvider::class,
+        ExtensionsValley\Dashboard\DashboardServiceProvider::class,
 
     ],
 

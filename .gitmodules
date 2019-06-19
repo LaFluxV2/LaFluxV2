@@ -1,6 +1,3 @@
-[submodule "packages/ExtensionsValley/Dashboard"]
-	path = packages/ExtensionsValley/Dashboard
-	url = https://github.com/LaFluxV2/Dashboard.git
 [submodule "packages/ExtensionsValley/Basetheme"]
 	path = packages/ExtensionsValley/Basetheme
 	url = https://github.com/LaFluxV2/Basetheme.git
@@ -22,3 +19,6 @@
 [submodule "packages/ExtensionsValley/Blog"]
 	path = packages/ExtensionsValley/Blog
 	url = https://github.com/LaFluxV2/Blog.git
+[submodule "packages/ExtensionsValley/Dashboard"]
+	path = packages/ExtensionsValley/Dashboard
+	url = https://github.com/LaFluxV2/Dashboard.git
