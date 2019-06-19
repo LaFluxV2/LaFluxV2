@@ -1,0 +1,24 @@
+[submodule "packages/ExtensionsValley/Dashboard"]
+	path = packages/ExtensionsValley/Dashboard
+	url = https://github.com/LaFluxV2/Dashboard.git
+[submodule "packages/ExtensionsValley/Basetheme"]
+	path = packages/ExtensionsValley/Basetheme
+	url = https://github.com/LaFluxV2/Basetheme.git
+[submodule "packages/ExtensionsValley/Banners"]
+	path = packages/ExtensionsValley/Banners
+	url = https://github.com/LaFluxV2/Banners.git
+[submodule "packages/ExtensionsValley/Ranger"]
+	path = packages/ExtensionsValley/Ranger
+	url = https://github.com/LaFluxV2/Ranger.git
+[submodule "packages/ExtensionsValley/Pages"]
+	path = packages/ExtensionsValley/Pages
+	url = https://github.com/LaFluxV2/Pages.git
+[submodule "packages/ExtensionsValley/Modulemanager"]
+	path = packages/ExtensionsValley/Modulemanager
+	url = https://github.com/LaFluxV2/Modulemanager.git
+[submodule "packages/ExtensionsValley/Menumanager"]
+	path = packages/ExtensionsValley/Menumanager
+	url = https://github.com/LaFluxV2/Menumanager.git
+[submodule "packages/ExtensionsValley/Blog"]
+	path = packages/ExtensionsValley/Blog
+	url = https://github.com/LaFluxV2/Blog.git
