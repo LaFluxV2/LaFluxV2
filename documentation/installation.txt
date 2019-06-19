@@ -12,3 +12,10 @@ $  php artisan db:seed --class=SystemSettingsSeeder
 $  php artisan db:seed --class=ACLSeeder
 $  php artisan db:seed --class=PagesSeeder
 $  php artisan db:seed --class=MenuSeeder
+
+$ git rm --cached packages/ExtensionsValley/Dashboard
+$ rm -rf packages/ExtensionsValley/Dashboard
+$ git submodule add https://github.com/LaFluxV2/Dashboard.git packages/ExtensionsValley/Dashboard
+$ git submodule update --init
+$ git submodule update --init --recursive
+$ git submodule foreach git push origin master
