@@ -28,14 +28,21 @@
             "database/factories"
         ],
         "psr-4": {
-            "ExtensionsValley\\Menumanager\\": "packages/ExtensionsValley/Menumanager/src",
-            
+            "ExtensionsValley\\Pages\\": "packages/ExtensionsValley/Pages/src",
+            "ExtensionsValley\\Menumanager\\": "packages/ExtensionsValley/Menumanager/src",            
             "ExtensionsValley\\Dashboard\\": "packages/ExtensionsValley/Dashboard/src",
+            "ExtensionsValley\\Banners\\": "packages/ExtensionsValley/Banners/src",
+            "ExtensionsValley\\Basetheme\\": "packages/ExtensionsValley/Basetheme/src",
+            "ExtensionsValley\\Menumanager\\": "packages/ExtensionsValley/Menumanager/src",
+            "ExtensionsValley\\Modulemanager\\": "packages/ExtensionsValley/Modulemanager/src",
+            
+            "ExtensionsValley\\Ranger\\": "packages/ExtensionsValley/Ranger/src",
             "App\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
+            "ExtensionsValley\\Pages\\": "packages/ExtensionsValley/Pages/src",
             "ExtensionsValley\\Menumanager\\": "packages/ExtensionsValley/Menumanager/src",
             
             "Tests\\": "tests/"

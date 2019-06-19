@@ -181,10 +181,15 @@ return [
         /*
          * Laflux Service Providers...
          */
-        
+        ExtensionsValley\Pages\PagesServiceProvider::class,
+ExtensionsValley\Dashboard\DashboardServiceProvider::class,
         ExtensionsValley\Menumanager\MenumanagerServiceProvider::class,
-        ExtensionsValley\Dashboard\DashboardServiceProvider::class,
-
+        ExtensionsValley\Banners\BannersServiceProvider::class,
+        ExtensionsValley\Basetheme\BasethemeServiceProvider::class,
+        ExtensionsValley\Menumanager\MenumanagerServiceProvider::class,
+        ExtensionsValley\Modulemanager\ModulemanagerServiceProvider::class,
+        
+        ExtensionsValley\Ranger\RangerServiceProvider::class,
     ],
 
     /*

@@ -1,0 +1,14 @@
+# Commands to run:
+$  composer dumpautoload -o
+$  php artisan vendor:publish
+$  php artisan migrate
+$  composer dumpautoload -o
+$  php artisan db:seed --class=UsersSeeder
+$  php artisan db:seed --class=RolesSeeder
+$  php artisan db:seed --class=UsersRolesSeeder
+$  php artisan db:seed --class=ExtensionManagerSeeder
+$  php artisan db:seed --class=ExtensionsModulesSeeder
+$  php artisan db:seed --class=SystemSettingsSeeder
+$  php artisan db:seed --class=ACLSeeder
+$  php artisan db:seed --class=PagesSeeder
+$  php artisan db:seed --class=MenuSeeder
