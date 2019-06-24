@@ -9,12 +9,12 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-
         "laravelcollective/html": "^5.4.0",
         "yajra/laravel-datatables-buttons": "^4.4",
         "yajra/laravel-datatables-oracle": "~8.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
@@ -28,14 +28,12 @@
             "database/factories"
         ],
         "psr-4": {
-            "ExtensionsValley\\Pages\\": "packages/ExtensionsValley/Pages/src",
-            "ExtensionsValley\\Menumanager\\": "packages/ExtensionsValley/Menumanager/src",            
+            "ExtensionsValley\\Pages\\": "packages/ExtensionsValley/Pages/src",            
             "ExtensionsValley\\Dashboard\\": "packages/ExtensionsValley/Dashboard/src",
             "ExtensionsValley\\Banners\\": "packages/ExtensionsValley/Banners/src",
             "ExtensionsValley\\Basetheme\\": "packages/ExtensionsValley/Basetheme/src",
             "ExtensionsValley\\Menumanager\\": "packages/ExtensionsValley/Menumanager/src",
             "ExtensionsValley\\Modulemanager\\": "packages/ExtensionsValley/Modulemanager/src",
-            
             "ExtensionsValley\\Ranger\\": "packages/ExtensionsValley/Ranger/src",
             "App\\": "app/"
         }

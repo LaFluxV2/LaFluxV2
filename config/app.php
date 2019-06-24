@@ -178,17 +178,17 @@ return [
          */
         Yajra\DataTables\DataTablesServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
         /*
          * Laflux Service Providers...
          */
         ExtensionsValley\Pages\PagesServiceProvider::class,
-ExtensionsValley\Dashboard\DashboardServiceProvider::class,
+        ExtensionsValley\Dashboard\DashboardServiceProvider::class,
         ExtensionsValley\Menumanager\MenumanagerServiceProvider::class,
         ExtensionsValley\Banners\BannersServiceProvider::class,
         ExtensionsValley\Basetheme\BasethemeServiceProvider::class,
         ExtensionsValley\Menumanager\MenumanagerServiceProvider::class,
         ExtensionsValley\Modulemanager\ModulemanagerServiceProvider::class,
-        
         ExtensionsValley\Ranger\RangerServiceProvider::class,
     ],
 
@@ -246,6 +246,7 @@ ExtensionsValley\Dashboard\DashboardServiceProvider::class,
         'Form' => Collective\Html\FormFacade::class,
         'Input' => Illuminate\Support\Facades\Input::class,
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
         /*
          * Laflux
          */
