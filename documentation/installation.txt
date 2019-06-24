@@ -19,3 +19,8 @@ $ git submodule add https://github.com/LaFluxV2/Dashboard.git packages/Extension
 $ git submodule update --init
 $ git submodule update --init --recursive
 $ git submodule foreach git push origin master
+
+$ git config user.name "Your Name Here"
+$ git config user.email your@email.com
+$ git config --global user.name "Your Name Here"
+$ git config --global user.email your@email.com
